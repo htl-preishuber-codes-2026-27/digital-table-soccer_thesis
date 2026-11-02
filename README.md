@@ -86,6 +86,7 @@ Um mit Online-Editoren wie z.B. https://de.overleaf.com/ arbeiten zu können mü
 # Im Projektverzeichnis:
 cd HTL-Braunau-DA-LaTeX-Template
 latexmk -pdf -g -output-directory=build diplomarbeit.tex
+pdflatex .\diplomarbeit.tex
 ```
 
 Das PDF wird unter `build/diplomarbeit.pdf` generiert.
